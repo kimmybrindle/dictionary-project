@@ -11,7 +11,25 @@ function App() {
         <main>
           <Dictionary defaultKeyword="sunset" />
         </main>
-        <footer>Coded by Kimmy Brindle</footer>
+        <footer>
+          Coded by Kimmy Brindle and is{" "}
+          <a
+            href="https://github.com/kimmybrindle/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://dictionary-project-scodes.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Netlify.{" "}
+          </a>
+        </footer>
       </div>
     </div>
   );
